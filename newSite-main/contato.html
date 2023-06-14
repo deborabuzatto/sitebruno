@@ -14,80 +14,87 @@
   <!-- Fontawesome -->
   <script src="https://kit.fontawesome.com/a9ac96b7ba.js" crossorigin="anonymous"></script>
 
+  <!-- Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
   <title>Code Overshadow | Fale conosco</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <div style="width: 100%; color: #fff;background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 13%, rgba(1,15,27,1) 13%, rgba(1,15,27,1) 28%, rgba(0,5,10,1) 68%);">
-    <div style="width: 60%; margin: auto;background-color: #000;background-image: url(img/imagemcontato.png);
-    background-repeat: no-repeat; background-position: center;background-size: cover;">
+  <div class="div-externa-navbar-contato">
+    <div class="div-interna-navbar-contato">
 
-      <nav class="navbar w-100">
-        <div class="container">
-          <ul class="nav-menu">
-            <li><a href="index.html">Início</a></li>
-            <li><a href="servicos.html">Serviços</a></li>
-            <li><a href="#">Produtos</a></li>
-            <li><a href="#">Sobre Nós</a></li>
-            <li><a href="contato.html" class="ativo">Contato</a></li>
-          </ul>
-          <img src="./img/wwAsset 6.png" class="logo"></img>
-          <button class="navbar-toggler">
-            <span></span>
-            <span></span>
-            <span></span>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars" style="color:#fff"></i>
           </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a href="index.html" class="nav-link" style="color:#fff">Início</a></li>
+              <li class="nav-item"><a href="servicos.html" class="nav-link" style="color:#fff">Serviços</a></li>
+              <li class="nav-item"><a href="index.html#produtos" class="nav-link" style="color:#fff">Produtos</a></li>
+              <li class="nav-item"><a href="index.html#sobrenos" class="nav-link" style="color:#fff">Sobre Nós</a></li>
+              <li class="nav-item"><a href="contato.html" class="ativo nav-link" style="color:#fff">Contato</a></li>
+            </ul>
+          </div>
+          <img src="./img/wwAsset 6.png" class="logo"></img>
         </div>
-
       </nav>
-      <div style="padding: 95px 0px; width: 100%; text-align: start;background: rgb(0,0,0);
-      background: linear-gradient(180deg, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.85) 100%);">
+
+      <div class="div-link-contato">
         
-          <h1 style="margin-left:20px;">Aguardamos seu contato</h1>
-          <p style="margin: 40px 0px 0px 20px;">
-            <a href="#" style="color: #050429; background-color: #fff;font-size: 14px;text-decoration: none;padding: 3px 5px;">Converse com nossos desenvolvedores pelo WhatsApp</a>
-          </p>
-          <p style="margin: 40px 0px 0px 20px;">
-            <a href="#" style="color: #050429; background-color: #fff;font-size: 14px;text-decoration: none; padding: 3px 5px;">Que tal conferir o portfólio da Code?</a>
-          </p>
-          <p style="margin: 40px 0px 0px 20px;">
-            <a href="#" style="color: #050429; background-color: #fff;font-size: 14px;text-decoration: none;padding: 3px 5px;">Nosso instagram está cheio de conteúdo para você</a>
-          </p>
+        <h1>Aguardamos seu contato</h1>
+        <p>
+          <a href="#">Converse com nossos desenvolvedores pelo WhatsApp</a>
+        </p>
+        <p>
+          <a href="#">Que tal conferir o portfólio da Code?</a>
+        </p>
+        <p>
+          <a href="#">Nosso instagram está cheio de conteúdo para você</a>
+        </p>
       </div>
     </div>
   </div>
 
-  <footer style="width: 100%;position: fixed;bottom: 0px;">
-    <div style="width: 100%; background: rgb(255,255,255);color:#000; padding: 80px 0px;font-size: 14px;">
-      <div style="width: 60%; display: flex; flex-wrap: wrap; justify-content: space-evenly; margin: auto;">
-        <div style="width: 18%; text-align: center;">
-          <h3 style="margin: 0px auto 20px auto;font-weight: 600;">About us</h3>
-          <div style="display: flex; width: 55%;margin: auto;font-size: 18px;">
-            <p style="margin: 0px 15px"><i class="fa-brands fa-instagram"></i></p>
-            <p style="margin: 0px 15px"><i class="fa-brands fa-facebook"></i></p>
-            <p style="margin: 0px 15px"><i class="fa-brands fa-linkedin"></i></p>
-            <p style="margin: 0px 15px"><i class="fa-brands fa-github"></i></p>
+  <footer>
+    <div class="div-footer">
+      <div class="div-interna-footer">
+        
+        <div class="order-3">
+          <h3>About us</h3>
+          <div>
+            <p><i class="fa-brands fa-instagram"></i></p>
+            <p><i class="fa-brands fa-facebook"></i></p>
+            <p><i class="fa-brands fa-linkedin"></i></p>
+            <p><i class="fa-brands fa-github"></i></p>
           </div>
         </div>
 
-        <div style="width: 18%; text-align: center;">
-          <h3 style="margin: 0px auto 10px auto;font-weight: 600;">Products</h3>
-          <p style="margin: 15px 0px">Coworking</p>
-          <p style="margin: 15px 0px">Landing Page</p>
-          <p style="margin: 15px 0px">E-commerce</p>
+        <div>
+          <h3>Products</h3>
+          <p>Coworking</p>
+          <p>E-commerce</p>
+          <p>Landing Page</p>
         </div>
 
-        <div style="width: 18%; text-align: center;">
-          <h3 style="margin: 0px auto 10px auto;font-weight: 600;">Address</h3>
-          <p style="margin: 15px 0px">duartebruno@gmail.com</p>
-          <p style="margin: 15px 0px">codeovershadow.com.br</p>
+        <div>
+          <h3>Address</h3>
+          <p>codeovershadow@gmail.com</p>
+          <p>codeovershadow.com.br</p>
         </div>
       </div>
     </div>
-    <div style="width: 100%; padding: 20px 0px; background-color: rgba(0, 163, 255, 0.37);color: rgb(255, 255, 255); text-align: center;">
-      <p>Desenvolvido por @Code Overshadow</p>
+    <div class="div-footer-rodape" >
+      <p>Desenvolvido por  &copyCode Overshadow</p>
     </div>
   </footer>
+
+  
+  <!-- Script Boostrap-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
 </body>
 </html>
