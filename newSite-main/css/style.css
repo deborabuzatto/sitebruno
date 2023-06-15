@@ -19,6 +19,14 @@ body { font-family: 'Montserrat', sans-serif;}
   background-image: url(https://img.freepik.com/fotos-gratis/homem-usando-tecnologia-inteligente-de-maquete-psd-de-tablet-digital_53876-110815.jpg?size=626&ext=jpg&ga=GA1.2.691316326.1676481620&semt=sph);
 }
 
+.div-externa-navbar-produtos{ width: 100%; background-color: #000; color: #fff;}
+.div-interna-navbar-produtos{
+  width: 60%; margin: auto;background-color: #000;
+  background-repeat: no-repeat; background-position: center;background-size: cover;
+  background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-noticias-de-tecnologia-de-terra-digital_1017-36675.jpg?w=900&t=st=1686853165~exp=1686853765~hmac=5583414fbf1c3c46e3f612d8d80d9848a2b02ad102c2aab14770c61bbdafbb94);
+}
+
+
 .div-externa-navbar-servicos{
   width: 100%; color: #fff;background: rgb(0,5,10);
   background: linear-gradient(180deg, rgba(0,5,10,1) 17%, rgba(0,23,40,1) 17%, rgba(0,14,25,1) 19%, rgba(0,14,25,1) 74%, rgba(0,5,10,1) 88%);
@@ -204,7 +212,7 @@ form h3{
 }
 .div-link-contato h1{ margin-left:20px}
 .div-link-contato p{ margin: 40px 0px 0px 20px; }
-.div-link-contato p a{color: #050429; background-color: #fff;font-size: 14px;text-decoration: none;padding: 3px 5px;}
+.div-link-contato p a{color: #050429; background-color: #fff;font-size: 14px;padding: 3px 5px;}
 
 
 
@@ -231,6 +239,10 @@ form h3{
 .div-interna-footer p{
   margin: 15px 0px;
 }
+.div-interna-footer p a{
+  color: #000;
+  text-decoration: none;
+}
 .div-interna-footer > div div{
   display: flex;
   width: 70%;
@@ -239,10 +251,14 @@ form h3{
   justify-content: space-between;
 }
 .div-footer-rodape{
-  width: 100%; padding: 20px 0px; background-color: rgba(0, 163, 255, 0.37);color: rgb(255, 255, 255); text-align: center;
+  width: 100%; padding-top: 15px; background-color: rgba(0, 163, 255, 0.37);color: rgb(255, 255, 255); justify-content: center; align-items: center; display: flex;
+}
+.div-footer-contato{
+  padding-top: 150px;
 }
 
 @media (max-width: 750px){
+  .div-footer{padding: 40px 0px;}
   .div-interna-footer {width: 90%;}
   .div-interna-footer > div{width: 100%; margin-top: 30px;}
   .div-interna-footer > div div{width: 40%;}
@@ -250,7 +266,7 @@ form h3{
   .div-titulos{padding: 40px 0px;}
   .div-titulos h1{font-size: 24px;}
   .div-titulos h4{width: 90%;}
-  .div-interna-card, .div-interna-navbar-index, .div-interna-navbar-servicos, .div-interna-geral, .div-interna-card-servicos, .div-interna-form-servicos, .div-interna-navbar-contato{width: 100%;}
+  .div-interna-card, .div-interna-navbar-index, .div-interna-navbar-servicos, .div-interna-geral, .div-interna-card-servicos, .div-interna-form-servicos, .div-interna-navbar-contato, .div-interna-navbar-produtos{width: 100%;}
   .div-card{width: 55%;margin-top: 30px;}
   .div-card h3{font-size: 18px;}
   .div-externa-card, .div-externa-card-servicos, .div-externa-formulario{ padding: 30px 0px;}
@@ -263,6 +279,7 @@ form h3{
   .div-texto-form, .div-input-form, .div-textarea-form{width: 90%; margin-top: 20px;}
   .div-link-contato h1{ margin-left:10px} 
   .div-link-contato p{ margin: 40px 0px 0px 5px; }
+  .div-footer-contato{padding-top: 0px;}
 }
 
 @media (max-width: 1500px) and (min-width: 750px){
@@ -271,7 +288,7 @@ form h3{
   .div-interna-footer > div div{width: 60%;}
   .order-3{order: 3;}
   .div-titulos h1{font-size: 24px;}
-  .div-interna-card, .div-interna-navbar-index, .div-interna-navbar-servicos, .div-interna-geral, .div-interna-card-servicos, .div-interna-form-servicos, .div-interna-navbar-contato{width: 80%;}
+  .div-interna-card, .div-interna-navbar-index, .div-interna-navbar-servicos, .div-interna-geral, .div-interna-card-servicos, .div-interna-form-servicos, .div-interna-navbar-contato, .div-interna-navbar-produtos{width: 80%;}
   .div-externa-card, .div-externa-card-servicos, .div-externa-formulario{ padding: 50px 0px;}
   .div-card{width: 26%;margin-top: 30px;}
   .div-card h3{font-size: 18px;}
