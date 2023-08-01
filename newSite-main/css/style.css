@@ -136,7 +136,7 @@ body { font-family: 'Montserrat', sans-serif;}
 .div-interna-geral > div div{
   width: 100%; 
   text-align: center;
-  margin-top: 30px;
+  margin: 30px 0px;
 }
 .div-interna-geral h2{
   padding-bottom: 30px;
