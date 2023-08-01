@@ -1,0 +1,302 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+body { font-family: 'Montserrat', sans-serif;}
+
+.ativo{ border-bottom: 2px solid rgb(255, 255, 255); }
+
+/* Navbar */
+.navbar {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.85) 90%);
+  color: #fff;
+  height: 60px;
+}
+.logo { width: 100px; }
+
+.div-externa-navbar-index{ width: 100%; background-color: #000; color: #fff;}
+.div-interna-navbar-index {
+  width: 60%; margin: auto;background-color: #000;
+  background-repeat: no-repeat; background-position: center;background-size: cover;
+  background-image: url(https://img.freepik.com/fotos-gratis/homem-usando-tecnologia-inteligente-de-maquete-psd-de-tablet-digital_53876-110815.jpg?size=626&ext=jpg&ga=GA1.2.691316326.1676481620&semt=sph);
+}
+
+.div-externa-navbar-produtos{ width: 100%; background-color: #000; color: #fff;}
+.div-interna-navbar-produtos{
+  width: 60%; margin: auto;background-color: #000;
+  background-repeat: no-repeat; background-position: center;background-size: cover;
+  background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-noticias-de-tecnologia-de-terra-digital_1017-36675.jpg?w=900&t=st=1686853165~exp=1686853765~hmac=5583414fbf1c3c46e3f612d8d80d9848a2b02ad102c2aab14770c61bbdafbb94);
+}
+
+
+.div-externa-navbar-servicos{
+  width: 100%; color: #fff;background: rgb(0,5,10);
+  background: linear-gradient(180deg, rgba(0,5,10,1) 17%, rgba(0,23,40,1) 17%, rgba(0,14,25,1) 19%, rgba(0,14,25,1) 74%, rgba(0,5,10,1) 88%);
+}
+.div-interna-navbar-servicos {
+  width: 60%; margin: auto;background-color: #000;background-image: url(../img/imagemInicioServiços.png);
+  background-repeat: no-repeat; background-position: center;background-size: cover;
+}
+
+.div-externa-navbar-contato{
+  width: 100%; color: #fff;background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 13%, rgba(1,15,27,1) 13%, rgba(1,15,27,1) 28%, rgba(0,5,10,1) 68%);
+}
+.div-interna-navbar-contato {
+  width: 60%; margin: auto;background-color: #000;background-image: url(../img/imagemcontato.png);
+  background-repeat: no-repeat; background-position: center;background-size: cover;
+}
+
+/* Index */
+.div-externa-card{
+  width: 100%; 
+  color:#fff; 
+  padding: 100px 0px;
+  font-size: 14px;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(243,243,243,1) 50%); 
+}
+.div-externa-projeto, .div-externa-formulario{
+  width: 100%; 
+  background: #f3f3f3; 
+  color:#050429; 
+  padding: 90px 0px;
+}
+.div-externa-sobrenos{
+  width: 100%; 
+  padding: 80px 0px 0px 0px; 
+  color: #fff;
+  background: rgb(1,21,37);
+  background: radial-gradient(circle, rgba(1,21,37,1) 18%, rgba(0,0,0,1) 84%); 
+}
+.div-externa-projeto{
+  width: 100%; 
+  background: #f3f3f3; 
+  color:#050429; 
+  padding: 90px 0px;
+}
+.div-externa-card-servicos{
+  width: 100%;
+  background: rgb(255,255,255); 
+  color:#fff; 
+  padding: 80px 0px;
+  font-size: 16px;
+}
+
+.div-titulos{
+  padding: 95px 0px; width: 100%; text-align: center;background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.85) 100%);
+}
+.div-titulos h4{
+  width:40%; font-size: 14px; font-weight: bold; margin: auto; margin-top: 20px;
+}
+
+.div-interna-card{
+  width: 60%; 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-evenly; 
+  margin: auto;
+}
+.div-interna-geral{
+  width: 60%; 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-evenly; 
+  margin: auto;
+}
+.div-interna-card-servicos{
+  width: 40%;
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  margin: auto;
+}
+
+.div-card{
+  width: 18%; 
+  background-color: #050429;
+  border-radius: 20px; 
+  padding: 20px 5px;
+  text-align: center;
+}
+.div-card h3{
+  margin: 0px auto 10px auto; 
+  padding-bottom: 4px; 
+  border-bottom: 2px solid rgb(255, 255, 255); 
+  width: 60%;
+}
+.div-card p{
+  margin: 15px 0px;
+}
+
+.div-interna-geral > div{
+  width: 40%; 
+  font-size: 16px;
+  text-align: center;
+}
+.div-interna-geral > div div{
+  width: 100%; 
+  text-align: center;
+  margin-top: 30px;
+}
+.div-interna-geral h2{
+  padding-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.link{
+  border-bottom: 2px solid rgba(0, 163, 255, 0.37);
+  text-decoration: none; 
+  color:#050429;
+  background-color: transparent;
+  padding-bottom: 5px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.div-interna-card-servicos > div{
+  width: 32%;
+  margin: 40px 0px; 
+  background-color: #050429;
+  border-radius: 20px; 
+  padding: 10px 0px;
+  text-align: center;
+}
+.div-interna-card-servicos > div p{
+  margin: 5px 20px; 
+  padding-bottom: 4px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+.div-interna-card-servicos > div img{
+  width: 120px;
+  height: 90px;
+}
+.div-interna-form-servicos {
+  width: 60%; 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-evenly; 
+  margin: auto;
+}
+.div-texto-form{
+  width: 30%; text-align: justify;font-size: 16px;
+}
+.div-input-form{
+  width: 40%;
+}
+.div-input-form div{
+  margin-top: 30px;
+}
+.div-textarea-form{
+  width: 80%;margin: 50px auto 0px auto;
+}
+
+form input{
+  width: 100%; 
+  height: 30px;
+  border: 1px solid #c9a8ff;
+}
+form textarea{
+  width: 100%; 
+  height: 160px;
+  border: 1px solid #c9a8ff;
+}
+form h3{
+  padding-bottom: 30px; width: 100%;text-align: center; text-transform: uppercase;
+}
+
+.div-link-contato{
+  padding: 95px 0px; width: 100%; text-align: start;background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.85) 100%);
+}
+.div-link-contato h1{ margin-left:20px}
+.div-link-contato p{ margin: 40px 0px 0px 20px; }
+.div-link-contato p a{color: #050429; background-color: #fff;font-size: 14px;padding: 3px 5px;}
+
+
+.div-footer{
+  width: 100%; background: rgb(255,255,255);color:#000; padding: 80px 0px;font-size: 14px;
+}
+.div-interna-footer {
+  width: 60%; 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-evenly; 
+  margin: auto;
+}
+.div-interna-footer > div{
+  width: 18%; text-align: center;
+}
+.div-interna-footer h3{
+  margin: 0px auto 20px auto;font-weight: 600;
+}
+.div-interna-footer p{
+  margin: 15px 0px;
+}
+.div-interna-footer p a{
+  color: #000;
+  text-decoration: none;
+}
+.div-interna-footer > div div{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  font-size: 20px;
+  justify-content: space-between;
+}
+.div-footer-rodape{
+  width: 100%; padding-top: 15px; background-color: rgba(0, 163, 255, 0.37);color: rgb(255, 255, 255); justify-content: center; align-items: center; display: flex;
+}
+.div-footer-contato{
+  padding-top: 150px;
+}
+
+@media (max-width: 750px){
+  .div-footer{padding: 40px 0px;}
+  .div-interna-footer {width: 90%;}
+  .div-interna-footer > div{width: 100%; margin-top: 30px;}
+  .div-interna-footer > div div{width: 40%;}
+  .order-3{order: 3;}
+  .div-titulos{padding: 40px 0px;}
+  .div-titulos h1{font-size: 24px;}
+  .div-titulos h4{width: 90%;}
+  .div-interna-card, .div-interna-navbar-index, .div-interna-navbar-servicos, .div-interna-geral, .div-interna-card-servicos, .div-interna-form-servicos, .div-interna-navbar-contato, .div-interna-navbar-produtos{width: 100%;}
+  .div-card{width: 55%;margin-top: 30px;}
+  .div-card h3{font-size: 18px;}
+  .div-externa-card, .div-externa-card-servicos, .div-externa-formulario{ padding: 30px 0px;}
+  .div-link-contato{ padding: 50px 0px;}
+  .div-interna-geral > div{ width: 85%;}
+  .link{margin: 20px 0px;}
+  .div-interna-card-servicos{justify-content: space-evenly;}
+  .div-interna-card-servicos > div{width: 40%;margin: 30px 0px;}
+  .div-interna-card-servicos > div p{font-size: 14px;}
+  .div-texto-form, .div-input-form, .div-textarea-form{width: 90%; margin-top: 20px;}
+  .div-link-contato h1{ margin-left:10px} 
+  .div-link-contato p{ margin: 40px 0px 0px 5px; }
+  .div-footer-contato{padding-top: 0px;}
+  .navbar>.container-fluid{padding: 10px; background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.85) 90%);}
+}
+
+@media (max-width: 1500px) and (min-width: 750px){
+  .div-interna-footer {width: 80%;}
+  .div-interna-footer > div{width: 30%; margin-top: 30px;}
+  .div-interna-footer > div div{width: 60%;}
+  .order-3{order: 3;}
+  .div-titulos h1{font-size: 24px;}
+  .div-interna-card, .div-interna-navbar-index, .div-interna-navbar-servicos, .div-interna-geral, .div-interna-card-servicos, .div-interna-form-servicos, .div-interna-navbar-contato, .div-interna-navbar-produtos{width: 80%;}
+  .div-externa-card, .div-externa-card-servicos, .div-externa-formulario{ padding: 50px 0px;}
+  .div-card{width: 26%;margin-top: 30px;}
+  .div-card h3{font-size: 18px;}
+  .div-link-contato{ padding: 50px 0px;}
+  .div-interna-geral > div{ width: 45%;}
+  .link{margin: 20px 0px;}
+  .div-interna-card-servicos{justify-content: space-evenly;}
+  .div-interna-card-servicos > div{width: 25%;margin: 30px 20px;}
+  .div-interna-card-servicos > div p{font-size: 14px;}
+  .div-texto-form, .div-input-form{width: 35%;}
+  .div-texto-form h3{font-size: 18px;}
+  .div-link-contato h1{ margin-left:10px} 
+  .div-link-contato p{ margin: 40px 0px 0px 5px; }
+}
